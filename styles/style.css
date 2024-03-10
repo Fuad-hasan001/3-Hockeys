@@ -1,0 +1,22 @@
+/* Google Font - Manrope  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.btn-manrope-bg{
+    background-color: #FF4240;
+    color: #FFF;
+}
+
+/* header{
+    background-color: aqua;
+    height: 10vh;
+}
+
+main{
+    background-color: blueviolet;
+    height: 20vh;
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+} */
