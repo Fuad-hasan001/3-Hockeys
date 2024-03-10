@@ -8,7 +8,8 @@
     <!-- tailwindCSS & DaisyUI cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- icons kit link  -->
+    <!-- Font Awesome icons link  -->
+    <script src="https://kit.fontawesome.com/6b2fc6e3f8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <!-- Info:  -->
     <!-- 
@@ -22,11 +23,11 @@
 
 <body class="bg-[#FFF]">
     <div class="md:px-10 lg:px-20 "> <!--class="mx-24"-->
-        <header>
+        <header class="space-y-4">
             <!-- Navbar -->
             <section>
                 <nav>
-                    <div class="navbar bg-base-100">
+                    <div class="navbar">
                         <div class="navbar-start">
                             <div class="dropdown">
                                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -38,26 +39,26 @@
                                 </div>
                                 <ul tabindex="0"
                                     class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a class="text-[#FF4240]">Home</a></li>
-                                    <li><a>About</a></li>
-                                    <li><a>Pages</a></li>
-                                    <li><a>Blog</a></li>
-                                    <li><a>Contact</a></li>
+                                    <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                                    <li><a class="text-black">About</a></li>
+                                    <li><a class="text-black">Pages</a></li>
+                                    <li><a class="text-black">Blog</a></li>
+                                    <li><a class="text-black">Contact</a></li>
                                 </ul>
                             </div>
-                            <a class="btn btn-ghost text-xl gap-0">Hockey<span class="text-[#FF4240] px-0">'</span>s
+                            <a class="btn btn-ghost text-3xl gap-0 text-black font-extrabold ">Hockey<span class="text-[#FF4240] px-0">'</span>s
                             </a>
                         </div>
                         <div class="navbar-center hidden lg:flex">
                             <ul class="menu menu-horizontal px-1">
-                                <li><a class="text-[#FF4240]">Home</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Pages</a></li>
-                                <li><a>Blog</a></li>
-                                <li><a>Contact</a></li>
+                                <li><a class="text-[#FF4240] font-bold">Home</a></li>
+                                <li><a class="text-black">About</a></li>
+                                <li><a class="text-black">Pages</a></li>
+                                <li><a class="text-black">Blog</a></li>
+                                <li><a class="text-black">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="navbar-end">
+                        <div class="navbar-end gap-4">
                             <button class="btn btn-ghost btn-circle">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor">
@@ -66,7 +67,7 @@
                                 </svg>
                             </button>
 
-                            <a class="btn btn-manrope-bg">Get Ticket</a>
+                            <a class="btn btn-manrope-bg border-0">Get Ticket</a>
                         </div>
                     </div>
                 </nav>
@@ -114,10 +115,10 @@
             </section>
         </header>
 
-        <main>
+        <main class="space-y-5 lg:space-y-24">
             <!-- Professional Hockey club Ratio -->
-            <section class="my-5 lg:my-24">
-                <!--upper Content -->
+            <section class="mt-10">
+                <!--  item-1-->
                 <div class="hero">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
@@ -128,7 +129,7 @@
                     </div>
                 </div>
 
-                <!-- Next Content with progress -->
+                <!-- item-2 -->
                 <div class="grid grid-cols-1 gap-8 justify-items-center lg:grid-cols-4">
                     <!-- card-1 ---------------------------------------->
                     <div class="card card-compact w-60 shadow-xl">
@@ -190,8 +191,9 @@
             </section>
 
             <!-- Program Sections -->
-            <section class="my-5 lg:my-24">
+            <section>
                 <div class="grid justify-items-center">
+                    <!-- item-1 -->
                     <div class="hero">
                         <div class="hero-content text-center">
                             <div class="max-w-md">
@@ -204,7 +206,7 @@
                     </div>
 
 
-                    <!-- Programs section -->
+                    <!-- item-2 - Programs section -->
                     <div class="space-y-5 lg:space-y-0 lg:grid grid-cols-2 gap-2 justify-items-center">
                         <!-- program-card-1 -->
                         <div class="card w-96 lg:w-full bg-base-100 shadow-xl image-full">
@@ -260,9 +262,9 @@
             </section>
 
             <!-- Our New Program -->
-            <section class="my-5 lg:my-24">
+            <section>
                 <div class="grid justify-items-center">
-                    <!-- program-content -->
+                    <!-- item-1 - new-program-content -->
                     <div class="hero">
                         <div class="hero-content text-center">
                             <div class="max-w-md">
@@ -274,7 +276,7 @@
                         </div>
                     </div>
 
-                    <!-- New Program items -->
+                    <!-- item-2 -->
                     <div class="grid grid-cols-1 lg:grid-cols-2 ">
                         <!-- items-1 -->
                         <div class="hero">
@@ -569,21 +571,256 @@
             </section>
 
             <!-- Clients Quires -->
-            <section></section>
+            <section>
+                <!-- item-1 -->
+                <div class="hero">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="text-4xl font-bold text-black">Clients Question</h1>
+                            <p class="py-6 text-gray-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-2 -->
+                <div>
+                    <div class="hero">
+                        <div class="hero-content flex-col lg:flex-row">
+                          <img src="/Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+                          <!-- Accordion-items-->
+                          <div>
+                            <!-- item-1 -->
+                            <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div>
+
+                              <!-- item-2 -->
+                              <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div>
+
+                              <!-- item-3 -->
+                              <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div>
+
+                              <!-- item-4 -->
+                              <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div>
+
+                              
+                              <!-- item-5 -->
+                              <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Booking
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div>
+
+                              
+                              <!-- item-6 -->
+                              <div class="collapse collapse-plus border-b-2">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-medium text-black font-bold">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content w-3/4"> 
+                                  <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                              </div> 
+
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </section>
 
             <!-- Get In Touch -->
-            <section></section>
+            <section>
+                <!-- item-1 -->
+                <div class="hero">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="text-4xl font-bold text-black">Clients Question</h1>
+                            <p class="py-6 text-gray-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item-2 -->
+                <div class="flex gap-4">
+                    <div class="contact-1 space-y-8">
+                        <!-- card-1 -->
+                        <div class="card card-compact w-80 p-4 shadow-xl items-start bg-[#a4b0bd4f]">
+                            <figure class="pl-5">
+                                <img src="/Images/Group 1171275317.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <p>Phone Number</p>
+                              <h2 class="card-title text-black font-bold">(+62) 123-321-543</h2>
+                              <div class="card-actions justify-end">
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- card-2 -->
+                          <div class="card card-compact w-80 p-4 shadow-xl items-start bg-[#ea425b41]">
+                            <figure class="pl-5">
+                                <img src="/Images/Group 1171275318.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <p>Phone Number</p>
+                              <h2 class="card-title text-black font-bold">(+62) 123-321-543</h2>
+                              <div class="card-actions justify-end">
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <!-- card-3 -->
+                          <div class="card card-compact w-80 p-4 shadow-xl items-start bg-[#67e6db3f]">
+                            <figure class="pl-5">
+                                <img src="/Images/Group 1171275321.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <p>Location : </p>
+                              <h2 class="card-title text-black font-bold">152/1 Mohakhali Wireless Gate</h2>
+                              <div class="card-actions justify-end">
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="contact-2 flex-grow p-4">
+                        <form action="">
+                            <div class="grid grid-cols-2 gap-6">
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-lg text-black font-bold">Your Name</span>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs bg-[#d1cbcb3a]" />
+                                  </label>
+    
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-lg text-black font-bold">Your Email</span>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full max-w-xs bg-[#d1cbcb3a]" />
+                                  </label>
+    
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text  text-lg text-black font-bold">Subject</span>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full max-w-xs bg-[#d1cbcb3a]" />
+                                  </label>
+    
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text  text-lg text-black font-bold">Phone Number</span>
+                                    </div>
+                                    <input type="text" placeholder="Enter Your phone number" class="input input-bordered w-full max-w-xs bg-[#d1cbcb3a]" />
+                                  </label>
+
+                                  <div class="w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-black font-bold">Message</span>
+                                    </div>
+                                    <textarea class="textarea textarea-accent bg-[#d1cbcb3a] border" name="" id="" cols="110" rows="10" placeholder="Write your message"></textarea>
+                                </div>
+                                
+                            </div>
+                            <button class="btn btn-block btn-error text-[#FFF]">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
 
             <!-- Social Media -->
-            <section></section>
+            <section>
+                <div class="flex justify-center border bg-[#a8a4a462]">
+                    <div class="card w-96 text-neutral-content">
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title text-black font-bold">Social Media</h2>
+                          <div class="space-x-4">
+                            <i class="fa-brands fa-twitter text-black"></i>
+                            <i class="fa-brands fa-facebook-f text-black"></i>
+                            <i class="fa-brands fa-instagram text-black"></i>
+                            <i class="fa-brands fa-github text-black"></i>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
         </main>
     </div>
 
-    <footer>
-        <section>
+    <div class="mt-10 lg:mt-16">
+        <footer class="footer p-10 bg-base-200 text-base-content">
+            <aside>
+                <h2 class="card-title text-[#FFF]">Get In Touch</h2>
+                <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+                <p>
+                    <i class="fa-regular fa-envelope text-red-500"></i>
+                    hockeys@support.com</p>
+                <p>
+                    <i class="fa-solid fa-phone text-red-500"></i>
+                    (+62) 123-321-543</p>
+            </aside> 
 
-        </section>
-    </footer>
+            <nav>
+                <h6 class=" text-[#FFF] font-bold">Company</h6> 
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News & Article</a>
+                <a class="link link-hover">Legal Notice</a>
+              </nav> 
+
+              <nav>
+                <h6 class=" text-[#FFF] font-bold">Support</h6> 
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contact Us</a>
+              </nav>
+
+            <nav>
+              <h6 class="text-[#FFF] font-bold">Services</h6> 
+              <a class="link link-hover">Academy</a>
+              <a class="link link-hover">Group Lesson</a>
+              <a class="link link-hover">Private Lesson</a>
+              <a class="link link-hover">Hockeys for kids</a>
+              <a class="link link-hover">Hockeys for Adult</a>
+            </nav> 
+          </footer>
+    </div>
 </body>
 
 </html>
